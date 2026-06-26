@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Muhammad Abubakar – Dispenser &amp; Pharmacy Technician</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">M.<span>Abubakar</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <p class="tagline">👋 Assalamu Alaikum, I'm</p>
+                <h1>Muhammad <span class="highlight">Abubakar</span></h1>
+                <p class="sub-tagline">Dispenser Technician &amp; Pharmacy Technician</p>
+                <div class="badge-group">
+                    <span class="badge blue"><i class="fas fa-graduation-cap"></i> Aleena Institute</span>
+                    <span class="badge"><i class="fas fa-certificate"></i> 4+ Certifications</span>
+                    <span class="badge"><i class="fas fa-heartbeat"></i> Healthcare</span>
+                </div>
+                <a href="#profile" class="btn-primary">
+                    <i class="fas fa-user"></i> View Profile
+                </a>
+            </div>
+            <div class="hero-3d">
+                <div id="three-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROFILE ===== -->
+    <section class="profile-section" id="profile">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <p class="section-subtitle animate-on-scroll">Dedicated to quality healthcare &amp; patient well-being</p>
+
+            <div class="profile-grid">
+                <div class="profile-image-wrapper animate-on-scroll">
+                    <!-- Replace src with actual client photo -->
+                    <img class="profile-img" src="https://ui-avatars.com/api/?name=Muhammad+Abubakar&background=2563eb&color=fff&size=280&bold=true" alt="Muhammad Abubakar" />
+                    <div class="status-badge"><i class="fas fa-check-circle"></i> Verified</div>
+                </div>
+
+                <div class="profile-info animate-on-scroll">
+                    <h2 id="clientNameDisplay">Muhammad Abubakar</h2>
+                    <p class="title-role">🩺 Dispenser &amp; Pharmacy Technician</p>
+                    <p class="bio" id="clientBioDisplay">
+                        A passionate healthcare professional with expertise in dispensing medications,
+                        pharmacy management, and patient counseling. Committed to delivering
+                        safe, accurate, and compassionate pharmaceutical care.
+                    </p>
+                    <div class="details-grid">
+                        <div class="item"><i class="fas fa-building"></i> <span id="instituteDisplay">Aleena Institute of Medical Sciences</span></div>
+                        <div class="item"><i class="fas fa-map-marker-alt"></i> Punjab, Pakistan</div>
+                        <div class="item"><i class="fas fa-flask"></i> Dispenser Technician</div>
+                        <div class="item"><i class="fas fa-pills"></i> Pharmacy Technician</div>
+                        <div class="item"><i class="fas fa-calendar-alt"></i> Degree <span id="yearDisplay">2025</span></div>
+                        <div class="item"><i class="fas fa-certificate"></i> 4 Certifications</div>
+                    </div>
+                    <a href="#certificates" class="btn-primary" style="padding:12px 32px; font-size:0.95rem;">
+                        <i class="fas fa-award"></i> View Certificates
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CERTIFICATES ===== -->
+    <section class="certificates-section" id="certificates">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Educational Certificates</h2>
+            <p class="section-subtitle animate-on-scroll">Recognized achievements in healthcare &amp; safety</p>
+
+            <div class="cert-grid" id="certGrid">
+                <!-- The certificates will be dynamically inserted by script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== QUALIFICATIONS ===== -->
+    <section class="qual-section" id="qualifications">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Core Qualifications</h2>
+            <p class="section-subtitle animate-on-scroll">Expertise that makes a difference</p>
+
+            <div class="qual-grid">
+                <div class="qual-item animate-on-scroll">
+                    <i class="fas fa-prescription"></i>
+                    <h4>Dispensing</h4>
+                    <p>Accurate medication dispensing &amp; patient counseling</p>
+                </div>
+                <div class="qual-item animate-on-scroll">
+                    <i class="fas fa-capsules"></i>
+                    <h4>Pharmacy Management</h4>
+                    <p>Inventory control, drug storage &amp; regulatory compliance</p>
+                </div>
+                <div class="qual-item animate-on-scroll">
+                    <i class="fas fa-heartbeat"></i>
+                    <h4>Patient Care</h4>
+                    <p>Compassionate care &amp; health education</p>
+                </div>
+                <div class="qual-item animate-on-scroll">
+                    <i class="fas fa-ambulance"></i>
+                    <h4>Emergency Response</h4>
+                    <p>Disaster response &amp; community safety training</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ADMIN PANEL ===== -->
+    <section class="admin-panel" id="adminPanel">
+        <div class="container">
+            <h2><i class="fas fa-cog"></i> Admin Dashboard</h2>
+            <p style="color:#64748b; margin-bottom: 32px; text-align:center;">
+                Update client information and certificates
+            </p>
+
+            <form id="adminForm">
+                <div class="form-group">
+                    <label for="clientName">Client Name</label>
+                    <input type="text" id="clientName" />
+                </div>
+                <div class="form-group">
+                    <label for="clientInstitute">Institute</label>
+                    <input type="text" id="clientInstitute" />
+                </div>
+                <div class="form-group">
+                    <label for="clientBio">Bio</label>
+                    <textarea id="clientBio"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="cert1">Certificate 1 Name</label>
+                    <input type="text" id="cert1" />
+                </div>
+                <div class="form-group">
+                    <label for="cert2">Certificate 2 Name</label>
+                    <input type="text" id="cert2" />
+                </div>
+                <div class="form-group">
+                    <label for="cert3">Certificate 3 Name</label>
+                    <input type="text" id="cert3" />
+                </div>
+                <div class="form-group">
+                    <label for="cert4">Certificate 4 Name</label>
+                    <input type="text" id="cert4" />
+                </div>
+                <button type="submit" class="btn-submit"><i class="fas fa-save"></i> Save Changes</button>
+            </form>
+            <div id="adminMessage" style="margin-top:16px; font-weight:600;"></div>
+        </div>
+    </section>
+
+    <!-- ===== ADMIN TOGGLE BUTTON ===== -->
+    <button class="admin-toggle" id="adminToggle">
+        <i class="fas fa-user-cog"></i> Admin
+    </button>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p>
+                &copy; 2026 <strong>Muhammad Abubakar</strong> &mdash;
+                Dispenser &amp; Pharmacy Technician &bull; Degree 2025
+            </p>
+            <p style="font-size:0.8rem; margin-top:6px; color:#64748b;">
+                <i class="fas fa-code"></i> Full‑Stack Portfolio &bull; Deployed on Vercel
+            </p>
+        </div>
+    </footer>
+
+    <!-- ===== Three.js ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- ===== External JavaScript ===== -->
+    <script src="script.js"></script>
+</body>
+</html>
